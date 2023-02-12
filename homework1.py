@@ -314,4 +314,4 @@ if __name__ == '__main__':
     # nearest_k(training_features, testing_features, training_output, testing_output, False)
     # neural_network(training_features, testing_features, training_output, testing_output, False)
     # boosting(training_features, testing_features, training_output, testing_output, False)
-    svm(training_features, testing_features, training_output, testing_output, False)
+    # svm(training_features, testing_features, training_output, testing_output, False)
