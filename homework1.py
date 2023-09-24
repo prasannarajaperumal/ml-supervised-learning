@@ -261,6 +261,7 @@ def boosting(training_features, testing_features, training_output, testing_outpu
     print("accuracy:", metrics.accuracy_score(testing_output, prediction))
 
 
+
 def svm(training_features, testing_features, training_output, testing_output, only_default):
     classifiers = get_svm_classifiers(only_default)
     # find_best_split(classifiers, training_features, testing_features, training_output, testing_output)
